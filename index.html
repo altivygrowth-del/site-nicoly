@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psicóloga Nicoly Rodrigues | CRP 08/35910 — Curitiba e Online</title>
+<meta name="description" content="Nicoly Rodrigues, psicóloga CRP 08/35910. Atendimento presencial em Curitiba e online. Um espaço seguro e acolhedor para você.">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Nicoly Rodrigues — Psicóloga",
+  "description": "Atendimento psicológico individual, presencial e online. CRP 08/35910.",
+  "url": "https://nicolyrodriguespsi.com.br",
+  "telephone": "+554197650119",
+  "sameAs": [
+    "https://www.instagram.com/nicolyrodriguespsi/",
+    "https://www.facebook.com/Psinicolyrodrigues/"
+  ],
+  "areaServed": ["Curitiba", "Brasil"],
+  "identifier": "CRP 08/35910"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+  --gold-deep:    #9F7A3D;
+  --gold-mid:     #B8925A;
+  --gold-light:   #D2B07A;
+  --gold-pale:    #E7D3AE;
+  --gold-whisper: #F3E8D6;
+  --nude-dark:    #2B2118;
+  --nude-mid:     #4E3D2F;
+  --nude-soft:    #7B6450;
+  --nude-bg:      #E9DDD0;
+  --nude-cream:   #F4ECE3;
+  --white:        #FFFFFF;
+  --text-dark:    #241B14;
+  --text-body:    #3A2D22;
+  --text-muted:   #6B5644;
+
+  --border:       rgba(159,122,61,0.22);
+}
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--nude-cream);
+    color: var(--text-body);
+    line-height: 1.75;
+    overflow-x: hidden;
+  }
+
+  /* ─── TEXTURA SUTIL ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(ellipse 80% 60% at 10% 20%, rgba(201,169,110,0.07) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 80% at 90% 80%, rgba(184,148,74,0.05) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--text-dark);
+    line-height: 1.2;
+    font-weight: 400;
+  }
+
+  p { line-height: 1.8; }
+
+  a { color: inherit; text-decoration: none; }
+
+  img { display: block; max-width: 100%; }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1.25rem 0;
+    transition: all 0.4s ease;
+  }
+  nav.scrolled {
+    background: rgba(253,248,241,0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 0;
+  }
+  .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    letter-spacing: 0.02em;
+  }
+  .nav-logo span {
+    color: var(--gold-mid);
+    font-style: italic;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    transition: color 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold-deep); }
+  .nav-cta {
+    background: var(--gold-mid);
+    color: var(--nude-cream) !important;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2px;
+    font-size: 0.82rem !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    transition: background 0.3s !important;
+  }
+  .nav-cta:hover { background: var(--gold-deep) !important; color: var(--nude-cream) !important; }
+
+  /* ─── HERO ─── */
+  #hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-left {
+    padding: 8rem 3rem 6rem 0;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold-mid);
+    margin-bottom: 2rem;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 1px;
+    background: var(--gold-mid);
+  }
+  .hero-title {
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    font-weight: 300;
+    line-height: 1.12;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark);
+  }
+  .hero-title em {
+    font-style: italic;
+    color: var(--gold-deep);
+  }
+  .hero-sub {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    max-width: 440px;
+    line-height: 1.85;
+    margin-bottom: 2.8rem;
+  }
+  .hero-crp {
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    color: var(--gold-mid);
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    opacity: 0.8;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: var(--gold-mid);
+    color: var(--nude-cream);
+    padding: 0.95rem 2.2rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+  }
+  .btn-primary:hover {
+    background: var(--gold-deep);
+  }
+  .btn-primary svg {
+    width: 16px; height: 16px;
+    transition: transform 0.3s;
+  }
+  .btn-primary:hover svg { transform: translateX(3px); }
+
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: transparent;
+    color: var(--gold-deep);
+    padding: 0.95rem 2.2rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid var(--gold-light);
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+  }
+  .btn-outline:hover {
+    background: var(--gold-pale);
+    border-color: var(--gold-mid);
+  }
+
+  .hero-right {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .hero-photo-wrap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-photo-placeholder {
+    width: 72%;
+    aspect-ratio: 3/4;
+    background: linear-gradient(160deg, var(--gold-pale) 0%, var(--nude-bg) 50%, var(--gold-whisper) 100%);
+    border-radius: 0 0 200px 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(201,169,110,0.3);
+    overflow: hidden;
+  }
+  .hero-photo-placeholder::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: -20%;
+    width: 140%;
+    height: 70%;
+    background: radial-gradient(ellipse, rgba(201,169,110,0.18) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .photo-icon {
+    width: 80px; height: 80px;
+    background: rgba(201,169,110,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .photo-icon svg {
+    width: 36px; height: 36px;
+    stroke: var(--gold-mid);
+    fill: none;
+    stroke-width: 1.5;
+  }
+  .photo-hint {
+    font-size: 0.78rem;
+    color: var(--gold-mid);
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 0.05em;
+    padding: 0 2rem;
+  }
+  .hero-deco {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 110px;
+    height: 110px;
+    border: 1px solid rgba(201,169,110,0.25);
+    border-radius: 50%;
+  }
+  .hero-deco-2 {
+    position: absolute;
+    top: 12%;
+    right: 15%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(201,169,110,0.2);
+    border-radius: 50%;
+  }
+
+  /* ─── SOBRE ─── */
+  #sobre {
+    padding: 7rem 0;
+    position: relative;
+  }
+  #sobre::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  }
+  .sobre-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+  }
+  .sobre-img-wrap {
+    position: relative;
+  }
+  .sobre-img-box {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: linear-gradient(145deg, var(--gold-whisper), var(--nude-bg));
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .sobre-img-box::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(ellipse, rgba(201,169,110,0.12) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .sobre-img-box .photo-hint {
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    color: var(--gold-mid);
+  }
+  .sobre-deco-line {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    width: calc(100% + 1.5rem);
+    height: calc(100% + 1.5rem);
+    border: 1px solid rgba(201,169,110,0.18);
+    border-radius: 4px;
+    pointer-events: none;
+  }
+  .section-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold-mid);
+    margin-bottom: 1.2rem;
+  }
+  .section-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1px;
+    background: var(--gold-mid);
+  }
+  .section-title {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+    line-height: 1.15;
+  }
+  .section-title em { font-style: italic; color: var(--gold-deep); }
+  .sobre-text p {
+    color: var(--text-body);
+    margin-bottom: 1.2rem;
+    font-size: 0.98rem;
+  }
+  .formacao-list {
+    list-style: none;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .formacao-list li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: 0.88rem;
+    color: var(--text-body);
+  }
+  .formacao-list li::before {
+    content: '◆';
+    color: var(--gold-light);
+    font-size: 0.6rem;
+    margin-top: 0.35rem;
+    flex-shrink: 0;
+  }
+  .crp-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gold-whisper);
+    border: 1px solid var(--gold-pale);
+    color: var(--gold-deep);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  /* ─── TEMAS ─── */
+  #temas {
+    padding: 7rem 0;
+    background: var(--nude-bg);
+    position: relative;
+  }
+  #temas::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  }
+  #temas::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  }
+  .temas-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .temas-header .section-eyebrow { justify-content: center; }
+  .temas-header .section-eyebrow::before { display: none; }
+  .temas-header .section-eyebrow::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1px;
+    background: var(--gold-mid);
+  }
+  .temas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .tema-card {
+    background: var(--nude-cream);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 1.8rem;
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .tema-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold-light), var(--gold-pale));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s ease;
+  }
+  .tema-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(184,148,74,0.1); }
+  .tema-card:hover::before { transform: scaleX(1); }
+  .tema-icon {
+    width: 44px; height: 44px;
+    background: var(--gold-whisper);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.1rem;
+  }
+  .tema-icon svg {
+    width: 20px; height: 20px;
+    stroke: var(--gold-deep);
+    fill: none;
+    stroke-width: 1.5;
+  }
+  .tema-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  .tema-card p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  /* ─── COMO FUNCIONA ─── */
+  #como-funciona {
+    padding: 7rem 0;
+  }
+  .funciona-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 6rem;
+    align-items: start;
+  }
+  .funciona-sticky {
+    position: sticky;
+    top: 6rem;
+  }
+  .funciona-intro p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 1.5rem;
+    position: relative;
+    padding-bottom: 2.5rem;
+  }
+  .step:last-child { padding-bottom: 0; }
+  .step-num-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .step-num {
+    width: 48px; height: 48px;
+    border: 1px solid var(--gold-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--gold-deep);
+    background: var(--nude-cream);
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .step-line {
+    flex: 1;
+    width: 1px;
+    background: linear-gradient(180deg, var(--gold-light), var(--gold-pale));
+    margin-top: 0;
+    min-height: 20px;
+  }
+  .step:last-child .step-line { display: none; }
+  .step-content { padding-top: 0.6rem; }
+  .step-content h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .step-content p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+  .info-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .info-box {
+    background: var(--gold-whisper);
+    border: 1px solid var(--gold-pale);
+    border-radius: 2px;
+    padding: 1.2rem;
+    text-align: center;
+  }
+  .info-box .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-mid);
+    margin-bottom: 0.4rem;
+  }
+  .info-box .value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    color: var(--text-dark);
+  }
+
+  /* ─── FAQ ─── */
+  #faq {
+    padding: 7rem 0;
+    background: var(--nude-bg);
+    position: relative;
+  }
+  #faq::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  }
+  .faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 6rem;
+    align-items: start;
+  }
+  .faq-title-wrap {
+    position: sticky;
+    top: 6rem;
+  }
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--border);
+  }
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    color: var(--text-dark);
+    transition: color 0.3s;
+  }
+  .faq-question:hover { color: var(--gold-deep); }
+  .faq-question.active { color: var(--gold-deep); }
+  .faq-icon {
+    width: 28px; height: 28px;
+    border: 1px solid var(--gold-light);
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    color: var(--gold-mid);
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  .faq-question.active .faq-icon {
+    background: var(--gold-mid);
+    border-color: var(--gold-mid);
+    color: white;
+    transform: rotate(45deg);
+  }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+  }
+  .faq-answer.open {
+    max-height: 300px;
+    padding-bottom: 1.5rem;
+  }
+  .faq-answer p {
+    font-size: 0.93rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+  }
+
+  /* ─── CONTATO ─── */
+  #contato {
+    padding: 7rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+  #contato::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  }
+  .contato-deco {
+    position: absolute;
+    right: -8%;
+    top: 10%;
+    width: 500px; height: 500px;
+    border: 1px solid rgba(201,169,110,0.08);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .contato-deco-2 {
+    position: absolute;
+    right: -4%;
+    top: 5%;
+    width: 350px; height: 350px;
+    border: 1px solid rgba(201,169,110,0.12);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .contato-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 6rem;
+    align-items: start;
+  }
+  .contato-info p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 3rem;
+    line-height: 1.85;
+    max-width: 460px;
+  }
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--gold-whisper);
+    border: 1px solid var(--gold-pale);
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  .contact-method:hover {
+    background: var(--gold-pale);
+    border-color: var(--gold-light);
+    transform: translateX(4px);
+  }
+  .contact-method-icon {
+    width: 40px; height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid var(--gold-pale);
+  }
+  .contact-method-icon svg {
+    width: 18px; height: 18px;
+    stroke: var(--gold-deep);
+    fill: none;
+    stroke-width: 1.8;
+  }
+  .contact-method-text .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-mid);
+    margin-bottom: 0.15rem;
+  }
+  .contact-method-text .value {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    font-weight: 500;
+  }
+  .contact-method-text .sub {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.1rem;
+  }
+
+  .whatsapp-big {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--gold-mid);
+    color: var(--nude-cream);
+    padding: 1.2rem 2rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    margin-top: 2rem;
+    width: fit-content;
+  }
+  .whatsapp-big:hover { background: var(--gold-deep); }
+  .whatsapp-big svg {
+    width: 20px; height: 20px;
+    fill: var(--nude-cream);
+  }
+
+  .form-card {
+    background: var(--nude-cream);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2.5rem;
+  }
+  .form-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  .form-card .sub {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+  }
+  .field {
+    margin-bottom: 1.2rem;
+  }
+  .field label {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+  .field input,
+  .field textarea,
+  .field select {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    background: var(--nude-bg);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.92rem;
+    color: var(--text-dark);
+    transition: border-color 0.3s;
+    outline: none;
+    appearance: none;
+  }
+  .field input:focus,
+  .field textarea:focus {
+    border-color: var(--gold-mid);
+    background: white;
+  }
+  .field textarea { min-height: 100px; resize: vertical; }
+  .form-submit {
+    width: 100%;
+    background: var(--gold-mid);
+    color: var(--nude-cream);
+    border: none;
+    padding: 1rem;
+    border-radius: 2px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+  }
+  .form-submit:hover { background: var(--gold-deep); }
+  .form-privacy {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+
+  /* ─── REDES SOCIAIS ─── */
+  .social-bar {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .social-link {
+    width: 40px; height: 40px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold-mid);
+    transition: all 0.3s;
+  }
+  .social-link:hover {
+    background: var(--gold-pale);
+    border-color: var(--gold-mid);
+    color: var(--gold-deep);
+  }
+  .social-link svg {
+    width: 17px; height: 17px;
+    fill: currentColor;
+  }
+
+  /* ─── RODAPÉ ─── */
+  footer {
+    background: var(--nude-dark);
+    color: rgba(253,248,241,0.6);
+    padding: 4rem 0 2.5rem;
+    position: relative;
+  }
+  footer::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold-mid), transparent);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+  .footer-brand .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    color: var(--gold-pale);
+    margin-bottom: 0.8rem;
+  }
+  .footer-brand .logo em { font-style: italic; color: var(--gold-mid); }
+  .footer-brand p {
+    font-size: 0.85rem;
+    line-height: 1.8;
+    max-width: 300px;
+  }
+  .footer-crp {
+    display: inline-block;
+    background: rgba(201,169,110,0.12);
+    border: 1px solid rgba(201,169,110,0.25);
+    color: var(--gold-pale);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.4rem 0.9rem;
+    border-radius: 2px;
+    margin-top: 1rem;
+  }
+  .footer-col h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gold-pale);
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.05em;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li {
+    margin-bottom: 0.6rem;
+  }
+  .footer-col ul li a {
+    font-size: 0.85rem;
+    color: rgba(253,248,241,0.5);
+    transition: color 0.3s;
+  }
+  .footer-col ul li a:hover { color: var(--gold-pale); }
+  .footer-col p {
+    font-size: 0.85rem;
+    line-height: 1.8;
+  }
+  .footer-social {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+  }
+  .footer-social a {
+    width: 36px; height: 36px;
+    border: 1px solid rgba(201,169,110,0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(253,248,241,0.5);
+    transition: all 0.3s;
+  }
+  .footer-social a:hover {
+    border-color: var(--gold-mid);
+    color: var(--gold-pale);
+  }
+  .footer-social svg { width: 15px; height: 15px; fill: currentColor; }
+  .footer-bottom {
+    border-top: 1px solid rgba(201,169,110,0.12);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.78rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .footer-bottom a {
+    color: rgba(201,169,110,0.7);
+  }
+  .footer-bottom a:hover { color: var(--gold-pale); }
+
+  /* ─── RESPONSIVO ─── */
+  @media (max-width: 900px) {
+    #hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-left { padding: 7rem 0 4rem; }
+    .hero-right { height: 60vw; }
+    .hero-photo-placeholder { width: 80%; }
+    .sobre-grid,
+    .funciona-grid,
+    .contato-grid,
+    .faq-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .funciona-sticky,
+    .faq-title-wrap { position: static; }
+    .temas-grid { grid-template-columns: 1fr 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+  }
+  @media (max-width: 600px) {
+    .temas-grid { grid-template-columns: 1fr; }
+    .info-boxes { grid-template-columns: 1fr 1fr; }
+    .nav-links { display: none; }
+    .hero-title { font-size: 2.4rem; }
+    .hero-right { display: none; }
+  }
+
+  /* ─── FADE IN ─── */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: none;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo"><span>Nicoly</span> Rodrigues</a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#temas">Como posso ajudar</a></li>
+      <li><a href="#como-funciona">Como funciona</a></li>
+      <li><a href="#faq">Dúvidas</a></li>
+      <li><a href="#contato" class="nav-cta">Agendar conversa</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-left fade-in">
+      <span class="hero-eyebrow">Psicóloga · CRP 08/35910</span>
+      <h1 class="hero-title">
+        Você não precisa<br>
+        <em>carregar isso</em><br>
+        sozinho.
+      </h1>
+      <p class="hero-sub">
+        Buscar ajuda exige coragem. Aqui há um espaço seguro, sem pressa e sem julgamentos — para você falar o que precisa falar e encontrar o que precisa encontrar.
+      </p>
+      <p class="hero-crp">Nicoly Rodrigues · CRP 08/35910</p>
+      <div>
+        <a href="https://wa.me/5541997650119?text=Olá.%20Vi%20seu%20site.%20Gostaria%20de%20saber%20mais%20sobre%20uma%20primeira%20conversa." class="btn-primary" target="_blank" rel="noopener">
+          Falar comigo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#sobre" class="btn-outline">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-placeholder">
+        <div class="photo-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <p class="photo-hint">Insira a foto<br>da Nicoly aqui</p>
+      </div>
+      <div class="hero-deco"></div>
+      <div class="hero-deco-2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SOBRE ═══ -->
+<section id="sobre">
+  <div class="container">
+    <div class="sobre-grid">
+      <div class="sobre-img-wrap fade-in">
+        <div class="sobre-img-box">
+          <div class="photo-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          </div>
+          <p class="photo-hint">Foto do consultório<br>ou outra da Nicoly</p>
+        </div>
+        <div class="sobre-deco-line"></div>
+      </div>
+      <div class="sobre-text fade-in">
+        <span class="section-eyebrow">Sobre mim</span>
+        <h2 class="section-title">Olá, sou a <em>Nicoly</em></h2>
+        <p>
+          Sou psicóloga com formação dedicada a criar um espaço genuinamente acolhedor para quem chega. Acredito que o processo terapêutico acontece na relação — e que cada história merece atenção singular, sem pressa e sem fórmulas prontas.
+        </p>
+        <p>
+          Atendo adultos, adolescentes e casais que estejam passando por momentos de dificuldade emocional, transições importantes de vida, ou que simplesmente sintam que algo precisa ser olhado com mais cuidado.
+        </p>
+        <p>
+          Meu trabalho é presencial em Curitiba e também online — para que a distância não seja um obstáculo para quem precisa de cuidado.
+        </p>
+        <ul class="formacao-list">
+          <li>Graduação em Psicologia</li>
+          <li>Atendimento presencial em Curitiba · PR</li>
+          <li>Atendimento online para todo o Brasil</li>
+          <li>Adultos, adolescentes e casais</li>
+        </ul>
+        <div class="crp-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M22 12c0 5.5-4.5 10-10 10S2 17.5 2 12 6.5 2 12 2s10 4.5 10 10z"/></svg>
+          CRP 08/35910 · CFP
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TEMAS ═══ -->
+<section id="temas">
+  <div class="container">
+    <div class="temas-header fade-in">
+      <span class="section-eyebrow">Como posso ajudar</span>
+      <h2 class="section-title" style="text-align:center;">Se você sente algo assim,<br><em>este espaço é para você</em></h2>
+      <p style="text-align:center; color:var(--text-muted); max-width:560px; margin:0 auto; font-size:0.95rem;">
+        Algumas situações que costumam aparecer nos atendimentos — mas cada processo é único.
+      </p>
+    </div>
+    <div class="temas-grid">
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22c5.5 0 10-4.5 10-10S17.5 2 12 2 2 6.5 2 12s4.5 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <h3>Ansiedade e preocupações constantes</h3>
+        <p>Se os pensamentos não param, se o corpo tensa antes mesmo de acontecer algo — há formas de se relacionar diferente com isso.</p>
+      </div>
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Tristeza, desânimo e depressão</h3>
+        <p>Quando a leveza vai embora e fica difícil se reconhecer no espelho. Há espaço para falar sobre isso sem medo de ser julgado.</p>
+      </div>
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3>Luto e perdas</h3>
+        <p>Perder alguém ou algo importante dói de formas que só quem vive sabe descrever. É possível atravessar o luto com apoio e presença.</p>
+      </div>
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Relacionamentos e vínculos</h3>
+        <p>Dificuldades com a família, com o parceiro, com a forma de se aproximar das pessoas. As relações são campo fértil para o autoconhecimento.</p>
+      </div>
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h3>Autoestima e autoconhecimento</h3>
+        <p>Se você sente que não se conhece bem, que se julga demais ou que se perde em comparações — há muito a descobrir sobre si mesmo.</p>
+      </div>
+
+      <div class="tema-card fade-in">
+        <div class="tema-icon">
+          <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>Transições de vida</h3>
+        <p>Mudanças de carreira, término de relacionamentos, chegada de filhos, mudança de cidade. Toda transição carrega desafios e também possibilidades.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COMO FUNCIONA ═══ -->
+<section id="como-funciona">
+  <div class="container">
+    <div class="funciona-grid">
+      <div class="funciona-sticky fade-in">
+        <span class="section-eyebrow">Como funciona</span>
+        <h2 class="section-title">O caminho começa<br><em>com uma conversa</em></h2>
+        <div class="funciona-intro">
+          <p>Cada pessoa é diferente, e o processo terapêutico respeita o ritmo de quem chega. Aqui está o que você pode esperar.</p>
+        </div>
+        <div class="info-boxes">
+          <div class="info-box">
+            <p class="label">Duração</p>
+            <p class="value">50 min</p>
+          </div>
+          <div class="info-box">
+            <p class="label">Frequência</p>
+            <p class="value">Semanal</p>
+          </div>
+          <div class="info-box">
+            <p class="label">Modalidade</p>
+            <p class="value">Presencial<br>ou Online</p>
+          </div>
+          <div class="info-box">
+            <p class="label">Sigilo</p>
+            <p class="value">Total</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="steps fade-in">
+        <div class="step">
+          <div class="step-num-wrap">
+            <div class="step-num">1</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Você entra em contato</h3>
+            <p>Basta mandar uma mensagem pelo WhatsApp. Não precisa explicar tudo logo de início — um "quero marcar uma conversa" já é suficiente.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num-wrap">
+            <div class="step-num">2</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>A primeira sessão</h3>
+            <p>É um espaço para você se apresentar e me contar o que te trouxe até aqui. Sem questionários, sem roteiro fixo. Só uma conversa honesta.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num-wrap">
+            <div class="step-num">3</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Construímos juntos</h3>
+            <p>A partir daí, o processo vai sendo construído conforme suas necessidades. Cada encontro tem seu próprio ritmo e direção.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num-wrap">
+            <div class="step-num">4</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Sigilo e ética, sempre</h3>
+            <p>Tudo o que é compartilhado na sessão permanece em sigilo, conforme o Código de Ética do CFP. Este é um espaço verdadeiramente seguro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div class="faq-title-wrap fade-in">
+        <span class="section-eyebrow">Dúvidas frequentes</span>
+        <h2 class="section-title"><em>Perguntas</em><br>que aparecem com frequência</h2>
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-top:1rem; line-height:1.8;">
+          Se não encontrar sua resposta aqui, pode perguntar diretamente.<br>Não existe dúvida pequena demais.
+        </p>
+      </div>
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Aceita plano de saúde?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Os atendimentos são realizados de forma particular, sem convênio. Se quiser saber mais sobre valores e formas de pagamento, entre em contato — conversamos sobre isso antes da primeira sessão.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Nunca fui ao psicólogo. Por onde começo?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Começando por aqui mesmo. A primeira sessão é exatamente para isso: se apresentar, fazer perguntas, sentir se é um espaço onde você se sente à vontade. Não é preciso ter nada preparado.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            O atendimento online funciona de verdade?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. O atendimento online segue os mesmos princípios éticos e a mesma qualidade do presencial. Para muitas pessoas, a possibilidade de estar no próprio espaço facilita o processo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            O que é dito na sessão fica entre nós?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. O sigilo é um princípio ético fundamental da psicologia, previsto no Código de Ética do CFP. Tudo que é compartilhado nas sessões é confidencial.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Com que frequência os atendimentos acontecem?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>A frequência habitual é semanal — uma sessão por semana de 50 minutos. Isso pode ser ajustado ao longo do processo conforme as necessidades de cada pessoa.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Posso cancelar ou remarcar?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim, com aviso prévio. Combinamos isso diretamente ao iniciar o processo terapêutico, de forma clara e sem complicações.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTATO ═══ -->
+<section id="contato">
+  <div class="contato-deco"></div>
+  <div class="contato-deco-2"></div>
+  <div class="container">
+    <div class="contato-grid">
+      <div class="contato-info fade-in">
+        <span class="section-eyebrow">Contato</span>
+        <h2 class="section-title">Quando estiver<br><em>pronto para começar</em></h2>
+        <p>
+          Não precisa ter certeza absoluta de que quer iniciar. Às vezes só a vontade de entender o que está sentindo já é suficiente para o primeiro passo.
+        </p>
+        <div class="contact-methods">
+          <a href="https://wa.me/5541997650119?text=Olá.%20Vi%20seu%20site.%20Gostaria%20de%20saber%20mais%20sobre%20uma%20primeira%20conversa." target="_blank" rel="noopener" class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-deep)" stroke-width="1.8">
+                <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/>
+                <path d="M9 10c0 5 3 7 6 7"/>
+              </svg>
+            </div>
+            <div class="contact-method-text">
+              <p class="label">WhatsApp</p>
+              <p class="value">(41) 9765-0119</p>
+              <p class="sub">Resposta geralmente no mesmo dia</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/nicolyrodriguespsi/" target="_blank" rel="noopener" class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-deep)" stroke-width="1.8">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="0.5" fill="var(--gold-deep)"/>
+              </svg>
+            </div>
+            <div class="contact-method-text">
+              <p class="label">Instagram</p>
+              <p class="value">@nicolyrodriguespsi</p>
+              <p class="sub">Conteúdo sobre saúde mental</p>
+            </div>
+          </a>
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-deep)" stroke-width="1.8">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="contact-method-text">
+              <p class="label">Localização</p>
+              <p class="value">Curitiba · PR</p>
+              <p class="sub">Presencial e online para todo o Brasil</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-bar" style="margin-top:2rem;">
+          <a href="https://www.instagram.com/nicolyrodriguespsi/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://www.facebook.com/Psinicolyrodrigues/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://wa.me/5541997650119" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10c0 5 3 7 6 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="form-card fade-in">
+        <h3>Agendar uma conversa</h3>
+        <p class="sub">Preencha e entrarei em contato em breve.</p>
+        <div class="field">
+          <label for="nome">Seu nome</label>
+          <input type="text" id="nome" placeholder="Como gostaria de ser chamado(a)?">
+        </div>
+        <div class="field">
+          <label for="telefone">WhatsApp ou telefone</label>
+          <input type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx">
+        </div>
+        <div class="field">
+          <label for="modalidade">Modalidade preferida</label>
+          <select id="modalidade">
+            <option value="">Selecione...</option>
+            <option>Presencial — Curitiba</option>
+            <option>Online</option>
+            <option>Ainda não sei</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensagem">Algo que queira compartilhar (opcional)</label>
+          <textarea id="mensagem" placeholder="Pode escrever à vontade — ou deixar em branco."></textarea>
+        </div>
+        <button class="form-submit" onclick="enviarFormulario()">Enviar mensagem</button>
+        <p class="form-privacy">Suas informações são confidenciais e não serão compartilhadas com terceiros.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RODAPÉ ═══ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="logo"><em>Nicoly</em> Rodrigues</p>
+        <p>Psicóloga com atendimento presencial em Curitiba e online para todo o Brasil. Um espaço seguro, ético e acolhedor para o seu processo.</p>
+        <span class="footer-crp">CRP 08/35910</span>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/nicolyrodriguespsi/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://www.facebook.com/Psinicolyrodrigues/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://wa.me/5541997650119" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#temas">Como posso ajudar</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#faq">Perguntas frequentes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Informações</h4>
+        <p>CRP 08/35910<br>Curitiba · PR<br>Presencial e Online</p>
+        <p style="margin-top:1rem;">
+          <a href="https://cfp.org.br" target="_blank" rel="noopener" style="color:rgba(201,169,110,0.6); font-size:0.78rem;">
+            Conselho Federal de Psicologia ↗
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Nicoly Rodrigues · CRP 08/35910 · Todos os direitos reservados</p>
+      <p>Desenvolvido com ética e cuidado</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══ WHATSAPP FLUTUANTE ═══ -->
+<a href="https://wa.me/5541997650119?text=Olá.%20Vi%20seu%20site.%20Gostaria%20de%20saber%20mais%20sobre%20uma%20primeira%20conversa."
+   target="_blank" rel="noopener"
+   style="position:fixed;bottom:2rem;right:2rem;z-index:200;width:56px;height:56px;background:#C9A96E;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(201,169,110,0.4);transition:all 0.3s;"
+   onmouseover="this.style.background='#B8944A';this.style.transform='scale(1.08)'"
+   onmouseout="this.style.background='#C9A96E';this.style.transform='scale(1)'"
+   aria-label="Falar pelo WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.12 1.532 5.845L.057 23.27a.75.75 0 0 0 .916.916l5.424-1.475A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.017-1.375l-.36-.213-3.724 1.013 1.012-3.724-.213-.36A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/>
+  </svg>
+</a>
+
+<script>
+// Nav scroll
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 60) navbar.classList.add('scrolled');
+  else navbar.classList.remove('scrolled');
+});
+
+// FAQ
+function toggleFaq(btn) {
+  const answer = btn.nextElementSibling;
+  const isOpen = answer.classList.contains('open');
+  document.querySelectorAll('.faq-answer.open').forEach(a => a.classList.remove('open'));
+  document.querySelectorAll('.faq-question.active').forEach(b => b.classList.remove('active'));
+  if (!isOpen) {
+    answer.classList.add('open');
+    btn.classList.add('active');
+  }
+}
+
+// Fade-in observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Form submit → WhatsApp
+function enviarFormulario() {
+  const nome = document.getElementById('nome').value.trim();
+  const tel = document.getElementById('telefone').value.trim();
+  const modal = document.getElementById('modalidade').value;
+  const msg = document.getElementById('mensagem').value.trim();
+  if (!nome) { alert('Por favor, informe seu nome.'); return; }
+  let texto = `Olá, Nicoly! Vi seu site e gostaria de agendar uma conversa.\n\nNome: ${nome}`;
+  if (tel) texto += `\nContato: ${tel}`;
+  if (modal) texto += `\nModalidade: ${modal}`;
+  if (msg) texto += `\n\n${msg}`;
+  window.open(`https://wa.me/5541997650119?text=${encodeURIComponent(texto)}`, '_blank');
+}
+</script>
+</body>
+</html>
